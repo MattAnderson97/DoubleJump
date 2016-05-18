@@ -1,0 +1,13 @@
+#Double jump configuration
+#Edit the basics here such as the output message and jump height and jump length multipliers
+doublejump.height: 1.0
+#This controls how high the player gets pushed - default multiplier is 1.0
+doublejump.length: 1.6
+#This controls how far the player will go - default multiplier is 1.6
+doublejump.cooldown: 3
+#How many seconds does the player have to wait between double jumps - Default: 3 seconds
+doublejump.message: "&3Whoosh!"
+#What will the player see in their action bar when they double jump
+doublejump.cooldownMessage: "&c&l&oHey! &f&oYou cannot double jump yet"
+#What will the player see in their action bar when their double jump is cooling down
+

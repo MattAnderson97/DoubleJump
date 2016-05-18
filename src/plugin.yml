@@ -1,0 +1,9 @@
+name: DoubleJump
+main: space.wolv.doublejump.DoubleJump
+version: v0.1
+authors: [wolvfang]
+commands:
+  doublejump:
+    description: main command for DoubleJump
+    permission: doublejump.reload
+    usage: /doublejump
