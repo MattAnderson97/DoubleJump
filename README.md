@@ -3,7 +3,6 @@
 Double jump is a plugin for spigot that allows players to jump higher than they normally would be able to just by pressing space twice. The height and distance that the player travels can be customised via the config.yml file.
 
 ####All releases use _java 8_
-***
 
 ##Commands
 
