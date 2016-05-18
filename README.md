@@ -13,7 +13,16 @@ The only command is ```/doublejump``` which reloads the config
 
 | Permission | Description |
 | ---------- | ----------- |
-| doublejump.jump | Basic permission.\nAllows players to double jump |
+| doublejump.jump | Basic permission.<br>Allows the player to double jump.
 | doublejump.reload | allow usage of ```/doublejump``` to reload the configuration |
 
 All ops have access to both permissions by default
+
+##Configuration
+| Setting | Description |
+| ------- | ----------- |
+| doublejump.height | The multiplier for how high the player gets pushed.<br>Type: double<br>Default: 1.0 |
+| doublejump.length | The multiplier for how far forwards the player goes.<br>Type: double<br>Default: 1.6 |
+| doublejump.cooldown | The amount of time in seconds the player has to wait between double jumps.<br>Type: integer<br>Default: 3 |
+| doublejump.message | The message the player gets sent when they doublejump.<br>Type: string |
+| doublejump.cooldownMessage | the message the player gets when they cannot doublejump.<br>Type: string |
