@@ -1,4 +1,4 @@
-# DoubleJump
+![<h1>DoubleJump</h1>][logo]
 ***
 Double jump is a plugin for spigot that allows players to jump higher than they normally would be able to just by pressing space twice. The height and distance that the player travels can be customised via the config.yml file.
 
@@ -25,3 +25,5 @@ All ops have access to both permissions by default
 | doublejump.cooldown | The amount of time in seconds the player has to wait between double jumps.<br>Type: integer<br>Default: 3 |
 | doublejump.message | The message the player gets sent when they doublejump.<br>Type: string |
 | doublejump.cooldownMessage | the message the player gets when they cannot doublejump.<br>Type: string |
+
+[logo]: http://i.imgur.com/j6gdGEq.png
