@@ -12,12 +12,18 @@ public class PlayerMoveListener implements Listener
     public void onPlayerMove(PlayerMoveEvent event)
     {
         Player player = event.getPlayer();
-        
-        if (!DoubleJump.checkBlocks(player))
-        {
-            return;
-        }
-        
-        player.setAllowFlight(true);
+    	if (player.hasPermission("doublejump.jump")){
+            if (!DoubleJump.checkBlocks(player))
+            {
+                return;
+            }
+            
+            if (!DoubleJump.doublejumpToggled.get(player.getUniqueId().toString()))
+            {
+            	return;
+            }
+            
+            player.setAllowFlight(true);
+    	}
     }
 }

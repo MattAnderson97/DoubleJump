@@ -9,6 +9,12 @@ import space.wolv.doublejump.DoubleJump;
 
 public class PlayerJoinListener implements Listener
 {
+	DoubleJump plugin;
+	
+	public PlayerJoinListener(DoubleJump plugin)
+	{
+		this.plugin = plugin;
+	}
 	
 	@EventHandler
 	public void onPlayerJoin(PlayerJoinEvent event)
@@ -21,6 +27,8 @@ public class PlayerJoinListener implements Listener
             {
                 return;
             }
+            
+            plugin.getPlayerData(player);
             
             player.setAllowFlight(true);
 		}

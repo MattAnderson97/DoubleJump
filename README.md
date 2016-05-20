@@ -6,14 +6,18 @@ Double jump is a plugin for spigot that allows players to jump higher than they 
 
 ##Commands
 
-The only command is ```/doublejump``` which reloads the config
+| Command | Description |
+| ------- | ----------- |
+| /doublejump | reload the main configuration |
+| /toggledoublejump | Enable or disable double jump. |
 
 ##Permissions
 
 | Permission | Description |
 | ---------- | ----------- |
 | doublejump.jump | Basic permission.<br>Allows the player to double jump.
-| doublejump.reload | allow usage of ```/doublejump``` to reload the configuration |
+| doublejump.toggle | allow usage of ```/toggledoublejump``` to enable or disable double jump. |
+| doublejump.reload | allow usage of ```/doublejump``` to reload the configuration. |
 
 All ops have access to both permissions by default
 
