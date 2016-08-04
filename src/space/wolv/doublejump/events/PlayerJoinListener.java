@@ -23,14 +23,14 @@ public class PlayerJoinListener implements Listener
 		
 		if (player.hasPermission("doublejump.jump"))
 		{
-            if (!DoubleJump.checkBlocks(player) || player.getAllowFlight())
-            {
-                return;
-            }
-            
-            plugin.getPlayerData(player);
-            
-            player.setAllowFlight(true);
+	            if (!DoubleJump.checkBlocks(player) || player.getAllowFlight())
+	            {
+	                return;
+	            }
+	            
+	            plugin.getPlayerData(player);
+	            
+	            player.setAllowFlight(true);
 		}
 	}
 }
